@@ -6,7 +6,7 @@ from time import sleep
 from urllib import parse
 import os
 from getver import Getver
-import logging
+import logging 
 
 class Autoreply:
     result=None
