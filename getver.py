@@ -22,6 +22,7 @@ class Getver:
             'length':'0',
             'type':'1001'
         }
+        
         result=requests.post(url,headers=headers,data=data)
         res=result.text
         m=res.find('captcha')
